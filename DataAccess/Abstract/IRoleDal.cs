@@ -1,0 +1,16 @@
+﻿using Core.DataAccess;
+using Entities.Concrete;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace DataAccess.Abstract
+{
+    public interface IRoleDal : IEntityRepository<Role>
+    {
+      //Özel Operasyonları yazacağız.Joinler
+
+
+    }
+}
+//Code Refactoring
